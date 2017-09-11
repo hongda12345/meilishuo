@@ -1,0 +1,1049 @@
+/*
+* @Author: 宏达
+* @Date:   2017-08-27 20:19:20
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-08-31 03:09:46
+*/
+@import url('base.css');
+.top{
+	width: 100%;
+	height: 0.77rem;
+	background: white;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+#top{
+	width: 100%;
+	height: 0.77rem;
+}
+.top .center{
+	width: 7.1rem;
+	height: 0.48rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top .center .a1{
+	width: 0.18rem;
+	height: 0.31rem;
+	font-size: 0.3rem;
+	color: black;
+}
+.icon-zhuanfa{
+	width: 
+   margin-left: 4.53rem;
+}
+.icon-gouwuche1{
+
+}
+/* 头部结束 */
+/* 具体信息开始 */
+.photos{
+	width: 100%;
+	height: 7.4rem;
+	border-left: 0.23rem solid white;
+	border-right: 0.23rem solid white;
+	/* margin-top: 0.77rem; */
+}
+.photos .img1{
+	display: block;
+	width: 100%;
+	height: 7.4rem;
+}
+.name{
+	width: 5.91rem;
+	height: 0.66rem;
+	/* background: yellow; */
+	margin-left: 0.23rem;
+	margin-top: 0.3rem;
+}
+.name p{
+	width: 5.91rem;
+	height: 0.33rem;
+	color: black;
+	font-size: 0.28rem;
+	float: left;
+	line-height: 0.33rem;
+	font-family: "微软雅黑";
+}
+.price{
+	width: 6.5rem;
+	height: 0.96rem;
+	/* background: gold; */
+	margin-left: 0.55rem;
+	margin-top: 0.2rem;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.price .top2{
+	width: 3.2rem;
+	height: 0.46rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.price .top2 .left{
+	width: 1.67rem;
+	height: 0.42rem;
+	/* background: red; */
+	color: #f47ca7;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+}
+.price .top2 .center{
+	width: 0.81rem;
+	height: 0.2rem;
+	/* background: green; */
+	color: grey;
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+	text-decoration: line-through;
+}
+.price .top2 .right{
+	width: 0.66rem;
+	height: 0.27rem;
+    border-radius: 0.1rem;
+    background: #e80348;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price .top2 .right .p3{
+	width: 0.5rem;
+	height: 0.18rem;
+	color: white;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.18rem;
+}
+.price .bottom2{
+	width: 100%;
+	height: 0.3rem;
+	/* background: blue; */
+	display: flex;
+	justify-content: space-between;
+}
+.price .bottom2 .p4{
+	width: 1.5rem;
+	height: 0.18rem;
+	color: grey;
+	font-size: 0.18rem;
+	font-family: "微软雅黑";
+}
+.price .bottom2 .p5{
+	width: 1.5rem;
+	height: 0.18rem;
+	color: grey;
+	font-size: 0.18rem;
+	font-family: "微软雅黑";
+}
+.price .bottom2 .p6{
+	width: 2rem;
+	height: 0.18rem;
+	color: grey;
+	font-size: 0.18rem;
+	font-family: "微软雅黑";
+}
+.tubiao{
+	width: 6.1rem;
+	height: 0.67rem;
+	/* background: pink; */
+	border-top: 0.01rem solid grey;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 0.3rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.tubiao .left{
+	width: 5.8rem;
+	height: 0.29rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+}
+.tubiao .left .t1{
+	width: 1.6rem;
+	height: 0.29rem;
+	/* background: green; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
+.icon-dagou{
+
+}
+.tubiao .left .t1 .title{
+	width: 1.6rem;
+	height: 0.21rem;
+	color: grey;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.tubiao .left .t2{
+	width: 1.3rem;
+	height: 0.29rem;
+/* 	background: green; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;  
+}
+.tubiao .left .t2 .title{
+	width: 1.5rem;
+	height: 0.21rem;
+	color: grey;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.tubiao .left .t3{
+	width: 2rem;
+	height: 0.29rem;
+	/* background: green; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;  
+}
+.tubiao .left .t3 .title{
+	width: 2.4rem;
+	height: 0.21rem;
+	color: grey;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.tubiao .right{
+	width: 0.1rem;
+	height: 0.22rem;
+	/* background: green; */
+	margin-right: 0.13rem;
+	margin-bottom: 0.14rem;
+	color: grey;
+	font-size: 0.24rem;
+}
+/* 具体信息结束 */
+.tiao{
+	width: 100%;
+	height: 0.1rem;
+	background: #f2f5f8;
+}
+.tiao1{
+	width: 100%;
+	height: 0.1rem;
+	background: #f2f5f8;
+	margin-top: 2.2rem;
+}
+.tiao2{
+	width: 100%;
+	height: 0.16rem;
+	background: white;
+	margin-top: 0.1rem;
+}
+/* 立减 */
+.jian{
+	width: 100%;
+	height: 0.78rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.jian .left{
+	width: 6rem;
+	height: 0.31rem;
+/* 	background: orange; */
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.jian .left .juxing{
+	width: 1.8rem;
+	height: 0.3rem;
+	background: #f65c4b;
+	border-radius: 0.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jian .left .juxing .p6{
+	width: 1.6rem;
+	height: 0.17rem;
+	color: white;
+	font-size: 0.08rem;
+	text-align: center;
+	line-height: 0.17rem;
+
+}
+.jian .left .p7{
+	width: 5.2rem;
+	height: 0.2rem;
+	color: grey;
+	font-size: 0.18rem;
+	font-family: "微软雅黑";
+	float: left;
+	line-height: 0.2rem;
+	margin-bottom: 0.05rem;
+	margin-left: 0.3rem;
+}
+.jian .right{
+	width: 0.3rem;
+	height: 0.1rem;
+	/* background: blue; */
+}
+.jian .right .p8{
+	color: grey;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.1rem;
+}
+/* 商品评价开始 */
+.pingajia{
+	width: 7rem;
+	height: 0.82rem;
+/* 	background: yellow; */
+	margin: 0 auto;
+	border-bottom: 0.01rem solid lightgrey;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pingajia .left{
+	width: 1.43rem;
+	height: 0.29rem;
+	/* background: blue; */
+}
+.pingajia .left .p1{
+	width: 1.2rem;
+	height: 0.27rem;
+	color: black;
+	font-size: 0.26rem;
+	font-family: "微软雅黑";
+	float: left;
+	line-height: 0.27rem;
+}
+.pingajia .left .p2{
+	width: 0.11rem;
+	height:  0.15rem;
+	color: grey;
+	font-size: 0.14rem;
+	font-family: "微软雅黑";
+	float: right;
+	line-height: 0.3rem;
+}
+.pingajia .right{
+	width: 1.2rem;
+	height: 0.2rem;
+	/* background: blue; */
+}
+.pingajia .right a{
+	display: block;
+	color: grey;
+	font-size: 0.18rem;
+	line-height: 0.2rem;
+	text-align: center;
+}
+.tupian{
+	width: 6.14rem;
+	height: 2.7rem;
+/* 	background: lightblue; */
+	float: 	right;
+	padding-top: 0.13rem;
+	/* margin-top:0.01rem solid grey; */
+}
+.tupian .center{
+	width: 5.5rem;
+	height:  2.12rem;
+	/* background: blue; */
+	position: relative;
+}
+.tupian .center .img1{
+	width: 0.61rem;
+	height: 0.61rem;
+	position: absolute;	
+	top: 0;
+	left: -0.8rem;
+}
+.tupian .center .img1 img{
+	width: 0.61rem;
+	height: 0.61rem;
+    display: block;
+}
+.tupian .center .wenzi{
+	width: 	6.2rem;
+	height: 2.14rem;
+	float: 	right;
+	/* background: purple; */
+}
+.tupian .center .wenzi .t1{
+	width: 	100%;
+	height: 0.24rem;
+	margin-top:0.14rem;
+	/* background: red; */
+}
+.tupian .center .wenzi .t1 .p1{
+	width: 1.77rem;
+	height: 0.23rem;
+	color: 	black;
+	font-size: 0.22rem;
+	font-family:"微软雅黑" ;
+	line-height: 0.23rem;
+	float: left;
+
+}
+.tupian .center .wenzi .t1 .p2{
+	width: 	1.4rem;
+	height: 0.23rem;
+	color: 	grey;
+	font-size: 0.22rem;
+	font-family:"微软雅黑" ;
+	line-height: 0.23rem;
+	float: right;
+}
+.tupian .center .wenzi .t2{
+	width: 6rem;
+	height: 0.24rem;
+	margin-top:0.18rem;
+	/* background: red; */
+}
+.tupian .center .wenzi ul{
+	width: 6.04rem;
+	height: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tupian .center .wenzi ul li{
+	height:0.24rem;
+	color: #848484;
+	font-size: 0.24rem;
+	font-family:"微软雅黑";
+	line-height: 0.24rem;
+	text-align:center;
+}
+.tupian .center .wenzi .t3{
+	width:4.2rem;
+	height: 1rem;
+/* 	background: red; */
+	float:left;
+	margin-top: 0.23rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.tupian .center .wenzi .t3 .p1{
+	width: 2.4rem;
+	height: 0.22rem;
+	color: #adadad;
+	font-size: 0.22rem;
+	font-family:"微软雅黑";
+	line-height: 0.22rem;
+	float: left;
+}
+.tupian .center .wenzi .t3 .p2{
+	width: 1.2rem;
+	height: 0.22rem;
+	color: #adadad;
+	font-size: 0.22rem;
+	font-family:"微软雅黑";
+	line-height: 0.22rem;
+	float: right;
+}
+.tupian .center .wenzi .photo{
+	width: 0.88rem;
+	height: 0.61rem;
+	/* background: red; */
+	margin-top: 0.7rem;
+}
+.tupian .center .wenzi .photo img{
+	display: block;
+	width: 0.88rem;
+	height: 0.61rem;
+}
+/* 商品评价结束 */
+/* 店铺信息开始 */
+.dianpu{
+	width: 5.88rem;
+	height: 3.08rem;
+	/* background: red; */
+	margin: 0.4rem auto;
+	display: flex;
+	flex-wrap: 	wrap;
+
+	align-content: space-between;
+}
+.dianpu .top1{
+	width: 100%;
+	height:0.9rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dianpu .top1 .left{
+	width: 3.28rem;
+	height:0.9rem;
+	/* background: lightskyblue; */
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.dianpu .top1 .left .photo{
+	width:0.85rem;
+	height: 0.85rem;
+}
+.dianpu .top1 .left .photo img{
+	display:block;
+	width:0.85rem;
+	height: 0.85rem;
+}
+.dianpu .top1 .left .a1{
+	display: block;
+	width:2.3rem;
+	height: 0.28rem;
+	color: black;
+	font-size: 0.28rem;
+	font-family: "微软雅黑";
+}
+.dianpu .top1 .right{
+	width: 1.11rem;
+	height: 0.4rem;
+	background: #fe669c;
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dianpu .top1 .right .a2{
+	width: 1.71rem;
+	height: 0.25rem;
+	color: white;
+	font-size: 0.24rem;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 0.25rem;
+}
+.dianpu .center{
+	width: 100%;
+	height: 1rem;
+	/* background: yellow; */
+
+}
+.dianpu .center .left{
+	width: 2.54rem;
+	height: 1.01rem;
+	/* background: blue; */
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around	;
+}
+.dianpu .center .left .t1{
+	width: 1.91rem;
+	height: 0.27rem;
+	/* background: yellow; */
+	margin-left: 0.15rem;
+}
+.dianpu .center .left .t1 .p1{
+	color: black;
+	font-size: 0.26rem;
+	float: left;
+	font-family: "微软雅黑";
+	line-height: 0.26rem;
+}
+.dianpu .center .left .t1 .p2{
+	color: black;
+	font-size: 0.26rem;
+	float: right;
+	font-family: "微软雅黑";
+	line-height: 0.26rem;
+}
+.dianpu .center .left .t2{
+	width: 2.26rem;
+	height: 0.22rem;
+	/* background: yellow; */
+	margin-left: 0.19rem;
+	display: flex;
+	justify-content: space-around;
+}
+.dianpu .center .left .t2 .p3{
+	width: 1.3rem;
+	height: 0.21rem;
+	color: grey;
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+}
+.dianpu .center .left .t2 .p4{
+	width: 1.5rem;
+	height: 0.21rem;
+	color: grey;
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+}
+.dianpu .center .right{
+	width: 50%;
+	height:100%;
+	border-left: 0.02rem solid grey;
+	float: right;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.dianpu .center .right .p6{
+	width: 2rem;
+	height: 0.22rem;
+	/* background: orange; */
+	display: flex;
+	justify-content: space-between;
+}
+.dianpu .center .right .p6 .a1{
+	width: 1.2rem;
+	height: 0.22rem;
+	color: grey;
+	font-size: 0.22rem;
+	float: left;
+	line-height: 0.22rem;
+}
+.dianpu .center .right .p6  .a2{
+	width: 0.47rem;
+	height: 0.16rem;
+	color: #d98f97;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+}
+.dianpu .center .right  .juxing{
+	width:0.24rem;
+	height:0.24rem;
+	background: #f1403e;
+	border-radius: 0.05rem;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	position: relative;
+	top: -0.05rem;
+	left: 0.1rem;
+}
+.dianpu .center .right  .juxing .p1{
+	color:white;
+	font-size:0.1rem;
+}
+.dianpu .bottom{
+	width: 100%;
+	height: 0.47rem;
+	/* background: yellow; */
+	display:flex;
+	justify-content: center;
+}
+.dianpu .bottom .yuanjiao{
+	width: 4.8rem;
+	height: 0.46rem;
+	background: #f4f5f7;
+	border-radius: 0.2rem;
+}
+.dianpu .bottom .yuanjiao ul{
+	width: 100%;
+	height: 0.46rem;
+	background: #f4f5f7;
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: space-around;
+}
+.dianpu .bottom .yuanjiao ul li{
+	width: 50%;
+	height:100%;
+	/* background: green; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right:0.02rem solid white;
+}
+.dianpu .bottom .yuanjiao ul li:last-child{
+	border-left:0.02rem solid white;
+	border-right:none;
+
+}
+.dianpu .bottom .yuanjiao ul li .a1{
+    width:1.2rem;
+    height:0.23rem;
+    color: grey;
+    font-size: 0.22rem;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 0.23rem;
+}
+/* 店铺信息结束 */
+.xiangqing{
+	width: 5.73rem;
+	height: 0.81rem;
+	/* background: green; */
+	margin: 0 auto;
+}
+.xiangqing ul{
+	width: 5.73rem;
+	height: 0.81rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.xiangqing ul li{
+    height: 0.81rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xiangqing ul li:first-child{
+	border-bottom: 0.02rem solid #fc659a;
+}
+.xiangqing ul li .a1{ 
+	font-size: 0.26rem;
+	color: #fc659a;
+	font-family: "微软雅黑";
+	line-height: 0.81rem;
+
+}
+.xiangqing ul li .a2{
+	font-size: 0.24rem;
+	color: grey;
+	font-family: "微软雅黑";
+	line-height: 0.81rem;
+}
+.tupian1{
+	width: 100%;
+	height: 5rem;
+	border-top: 0.01rem solid lightgrey;
+	/* background: green; */
+}
+.tupian1 img{
+	width:100%;
+	height: 5rem;
+    display: block;
+	margin: 0 auto;
+}
+.photo1{
+	width:100%;
+	height: 9.25rem;
+	background: white;
+}
+.photo1 img{
+	width:100%;
+	height: 8.97rem;
+	display: block;
+}
+.photo2{
+	width:100%;
+	height: 5.49rem;
+	background: white;
+	display: flex;
+	align-items: center;
+}
+.photo2 img{
+	width:100%;
+	/* height: 4.5rem; */
+	height: 100%;
+	display: block;
+}
+/* 尺码说明开始 */
+.chima{
+	width: 100%;
+	height: 2.2rem;
+	/* background: lightskyblue; */
+}
+.chima .top2{
+	width: 90%;
+	height: 1.72rem;
+	/* background: lightgreen; */
+	padding-top: 0.12rem;
+}
+.chima .top2 .juxing{
+	width: 0.14rem;
+	height: 1.6rem;
+	/* background: #f5597b; */
+	margin-left: 0.2rem;
+	display: inline-block;
+}
+.chima .top2 .wenzi{
+	width: 6.03rem;
+	height: 3.6rem;
+	/* background: gold; */
+	float: right;
+	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.chima .top2 .wenzi .p1{
+	width: 1.5rem;
+	height: 0.22rem;
+	color: #f5597b;
+	font-size: 0.22rem;
+	float: left;
+	line-height: 0.22rem;
+	font-family: "微软雅黑";
+}
+.chima .top2 .wenzi .p2{
+	width: 5.9rem;
+	height: 0.35rem;
+	color: black;
+	font-size: 0.18rem;
+	float: left;
+	line-height: 0.35rem;
+	font-family: "微软雅黑";
+}
+.chima .top3{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+/* 	padding-left: 0.12rem; */
+	padding-left: 0.7em;
+     display: flex;
+     flex-wrap: wrap;
+	align-content: space-around;
+}
+.chima .top3 .p3{
+   height: 0.2rem;
+   font-size: 0.18rem;
+   color: black;
+   float: left;
+   font-family: "微软雅黑";
+}
+/* 尺码说明结束 */
+/* 款式开始 */
+.kuanshi{
+	width: 100%;
+	height: 2.3rem;
+	background: #f6f6f6;
+	margin-top: 0.5rem;
+	padding: 0.12rem;
+	display: flex;
+	align-items: center;
+}
+.kuanshi p{
+	width: 0.3rem;
+	height: 1rem;
+	color: black;
+	font-size: 0.24rem;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 0.24rem;
+}
+.photo5{
+	width: 100%;
+	height: 5.9rem;
+	/* margin-top: 5rem; */
+}
+.photo5 img{
+	display: block;
+	width: 5.71rem;
+	height: 5.67rem;
+	margin: 0.25rem auto;
+}
+.photo6{
+	width: 100%;
+	height: 12.26rem;
+	/* margin-top: 5rem; */
+}
+.photo6 img{
+	display: block;
+	width: 5.71rem;
+	height: 11.25rem;
+	margin: 0.25rem auto;
+}
+/* 款式结束 */
+/* 推荐开始 */
+.tuijian{
+	width: 100%;
+	height: 0.86rem;
+	padding-left: 0.29rem;
+	/* background: red; */
+	display: flex;
+	align-items: center;
+}
+.tuijian p{
+    width: 1.2rem;
+    height: 0.28rem;
+    color: black;
+    font-size: 0.28rem;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 0.28rem;
+}
+.tupian3{
+	width: 100%;
+	height: 5.37rem;
+	/* background: yellow; */
+}
+.tupian3 ul{
+	width: 100%;
+	height: 5.37rem;
+	display: flex;
+
+}
+.tupian3 ul li{
+	width: 50%;
+	height: 5.16rem;
+	/* background: grey; */
+	border-left: 0.25rem solid white;
+	border-right: 0.17rem solid white;
+	/* border-radius: 0.4rem; */
+}
+.tupian3 ul li .t1{
+	width: 100%;
+	height: 4.27rem;
+	/* background: blue; */
+}
+.tupian3 ul li .t1 img{
+	width: 100%;
+	height: 4.27rem;
+	/* background: blue; */
+}
+.tupian3 ul li .p1{
+	width: 100%;
+	height: 0.22rem;
+	color: #afafaf;
+	font-size: 0.22rem;
+	float: left;
+	line-height: 0.22rem;
+	margin-top: 0.2rem;
+}
+.tupian3 ul li .bottom{
+	width: 100%;
+	height: 0.42rem;
+	/* background: gold; */
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tupian3 ul li .bottom .left{
+	width: 0.72rem;
+	height: 0.3rem;
+	font-size: 0.16rem;
+	color: #ff679a;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.tupian3 ul li .bottom .right{
+	width: 0.7rem;
+	height: 0.22rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+}
+.tupian3 ul li .bottom .right .p2{
+	color: #afafaf;
+	font-size: 0.12rem; 
+}
+
+.icon-xiaolian{
+	color: #afafaf;
+	font-size: 0.14rem;
+}
+.tupian3 ul li:last-child{
+	border-left: 0;
+	border-right: 0.25rem solid white;
+}
+/* 推荐结束 */
+/* 底部开始 */
+.last{
+	width: 100%;
+	height: 0.86rem;
+	background: white;
+	display: flex;
+	justify-content:flex-start;
+	/* margin-top: 0.3rem; */
+}
+.last .left{
+	width:4rem;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	
+}
+.last .left .tubiao{
+	width: 100%;
+	height: 0.53rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.icon-weibiaoti1-copy{
+	color: #ff679a;
+	background-size: 0.1rem;
+    margin-left: -0.12rem;
+}
+.icon-dianpu{
+	margin-left: 0.12rem;
+    color: grey;
+	font-size: 0.3rem;
+}
+.icon-shoucang{
+	 color: grey;
+	font-size: 0.3rem;
+	margin-right: 0.1rem;
+}
+.tubiao .logo2{
+	position: relative;
+	left: -0.15rem;
+}
+.last .left .wenz{
+	width: 100%;
+	height: 0.34rem;
+    display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.last .left .wenz a{
+	color: grey;
+	font-size: 0.16rem;
+}
+.last .center{
+	width: 1.83rem;
+	height: 100%;
+	background: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.3rem;
+	/* margin-left: 1.2rem; */
+}
+.last .center .a1{
+	width: 1.5rem;
+	height: 0.26rem;
+	font-size: 0.26rem;
+	color: black;
+	text-align: center;
+	line-height: 0.26rem;
+}
+.last .right{
+	width: 1.83rem;
+	height: 100%;
+	background:#ff679a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.3rem;
+}
+.last .right .a1{
+	width: 1.36rem;
+	height: 0.26rem;
+	font-size: 0.26rem;
+	color: black;
+	text-align: center;
+	line-height: 0.26rem;
+}
+/* 底部结束 */

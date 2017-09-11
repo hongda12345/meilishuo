@@ -1,0 +1,119 @@
+/*
+* @Author: 宏达
+* @Date:   2017-08-26 15:32:18
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-08-30 13:39:49
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: 13.34rem;
+	background: #eeeeee;
+}
+.xitong-top{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	overflow: hidden;
+}
+.xitong-top .neibu{
+	width: 4.09rem;
+	height: 0.38rem;
+	background: #fff;
+	margin-top: 0.25rem;
+	margin-left: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.neibu-left{
+	width: 0.2rem;
+	height: 0.38rem;
+	/* background: yellow; */
+}
+.neibu-right{
+	width: 1.41rem;
+	height: 0.38rem;
+	background: #fff;
+	font-size: 0.32rem;
+	color: #090909;
+	line-height: 0.38rem;
+	text-align: center;
+}
+.xitong-bottom{
+	width: 100%;
+	height: 0.21rem;
+	background: #e6e6e6;
+	border-top: 1px solid #cdcccc;
+}
+.top{
+	width: 100%;
+	height: 3.2rem;
+	background: #ffffff;
+	border-bottom: 0.11rem solid #e6e6e6;
+}
+.top ul li{
+	width: 7.19rem;
+	height: 1rem;
+	background: #fff;
+	margin-left: 0.31rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
+}
+.top li:nth-child(3){
+	padding-top: 0.05rem;
+	height: 1.1rem;
+	padding-right: 0.5rem;
+}
+.left-word{
+	width: 1.8rem;
+	height: 0.98rem;
+	background: #fff;
+	font-size: 0.25rem;
+	color: #3a3a3a;
+	line-height: 1rem;
+}
+.jinru-logo{
+	width: 0.15rem;
+	height: 0.26rem;
+	/* background: yellow; */
+	margin-top: 0.38rem;
+	margin-right: 0.26rem;
+	font-size: 0.18rem;
+	color: #333333;
+	line-height: 0.26rem;
+}
+.center{
+	width: 100%;
+	height: 3.2rem;
+	background: #ffffff;
+	border-bottom: 0.11rem solid #e6e6e6;
+}
+.center ul li{
+	width: 7.19rem;
+	height: 1rem;
+	background: #fff;
+	margin-left: 0.31rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
+}
+.center li:nth-child(3){
+	padding-top: 0.05rem;
+	height: 1.1rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	font-size: 0.27rem;
+	color: #fc2a64;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.bottom a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fc2a64;
+}

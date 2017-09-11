@@ -1,0 +1,151 @@
+/*
+* @Author: 宏达
+* @Date:   2017-08-27 08:49:53
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-08-30 13:40:59
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: 13.34rem;
+	background: #eeeeee;
+}
+.xitong-top{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	overflow: hidden;
+}
+.xitong-top .neibu{
+	width: 4.09rem;
+	height: 0.38rem;
+	background: #fff;
+	margin-top: 0.25rem;
+	margin-left: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.neibu-left{
+	width: 0.2rem;
+	height: 0.38rem;
+	/* background: yellow; */
+}
+.neibu-right{
+	width: 1.41rem;
+	height: 0.38rem;
+	background: #fff;
+	font-size: 0.32rem;
+	color: #090909;
+	line-height: 0.38rem;
+	text-align: center;
+}
+.xitong-bottom{
+	width: 100%;
+	height: 0.21rem;
+	background: #e6e6e6;
+	border-top: 1px solid #cdcccc;
+}
+/* 主体 */
+.zhuti{
+    width: 100%;
+    height: 7.04rem;
+    background: #fff;
+}
+.zhuti ul{
+	 width: 7.2rem;
+    height: 7.04rem;
+    /* background: red; */
+    margin-left: 0.3rem;
+}
+.zhuti li a{
+    width: 7.2rem;
+    height: 0.88rem;
+    /* background: blue; */
+    border-bottom: 0.01rem solid #e5e5e5;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+li .left{
+	width: 2rem;
+	height: 0.25rem;
+	background: #fff;
+	font-size: 0.25rem;
+	color: #333333;
+	line-height: 0.25rem;
+	margin-top: 0.31rem;
+}
+li .right{
+	width: 3.32rem;
+	height: 0.88rem;
+	/* background: pink; */
+	margin-right: 0.3rem;
+	font-size: 0.24rem;
+	color: #878787;
+	line-height: 0.88rem;
+}
+li .right1{
+	width: 3.32rem;
+	height: 0.88rem;
+	/* background: pink; */
+	margin-right: 0.3rem;
+	font-size: 0.24rem;
+	color: #878787;
+	line-height: 0.88rem;
+	float: right;
+	padding-left: 2.4rem;
+}
+li .right2{
+	width: 3.32rem;
+	height: 0.88rem;
+	/* background: pink; */
+	margin-right: 0.3rem;
+	font-size: 0.24rem;
+	color: #878787;
+	line-height: 0.88rem;
+	float: right;
+	padding-left: 3.1rem;
+}
+.right-left{
+	width: 3.18rem;
+	height: 0.88rem;
+	/* background: green; */
+	float: left;
+	font-size: 0.24rem;
+	color: #878787;
+	line-height: 0.88rem;
+	padding-left: 1.4rem;
+}
+.right-left1{
+	width: 3.18rem;
+	height: 0.88rem;
+	/* background: green; */
+	float: left;
+	font-size: 0.24rem;
+	color: #ff517d;
+	line-height: 0.88rem;
+	padding-left: 0.6rem;
+}
+.right-right{
+	width: 0.14rem;
+	height: 0.26rem;
+	background: #fff;
+	margin-top: 0.31rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #cccccc;
+	line-height: 0.26rem;
+}
+.touxiang{
+	width: 0.64rem;
+	height: 0.64rem;
+	/* background: yellow; */
+	float: right;
+	margin-top: 0.1rem;
+	margin-right: 0.24rem;
+}
+.touxiang img{
+	display: block;
+	width: 120%;
+	height: 100%;
+}
